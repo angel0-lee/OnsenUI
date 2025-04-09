@@ -133,9 +133,17 @@ class Platform {
         window.screen.width === 430 && window.screen.height === 932 || // portrait
         window.screen.width === 932 && window.screen.height === 430 || // landscape
 
-          // 14 Pro
+        // 14 Pro
         window.screen.width === 393 && window.screen.height === 852 ||// portrait
-        window.screen.width === 852 && window.screen.height === 393 // landscape
+        window.screen.width === 852 && window.screen.height === 393 ||// landscape
+        
+        // 16 Pro Max
+        window.screen.width === 440 && window.screen.height === 956 || // portrait
+        window.screen.width === 956 && window.screen.height === 440 || // landscape
+
+        // 16 Pro
+        window.screen.width === 402 && window.screen.height === 874 || // portrait
+        window.screen.width === 874 && window.screen.height === 402    // landscape
       );
   }
 
